@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="ebanoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded box -->
+  <rect width="64" height="64" rx="16" fill="url(#ebanoGrad)" />
+  <rect width="62" height="62" x="1" y="1" rx="15" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+
+  <!-- Monogram "É" -->
+  <!-- Vertical backbone -->
+  <path d="M22 17 H30 V47 H22 Z" fill="#FFFFFF" />
+
+  <!-- Top bar -->
+  <path d="M26 17 H44 V23 H26 Z" fill="#FFFFFF" />
+
+  <!-- Middle bar with accent cut -->
+  <path d="M26 29 H39 V35 H26 Z" fill="#FFFFFF" />
+
+  <!-- Bottom bar -->
+  <path d="M26 41 H44 V47 H26 Z" fill="#FFFFFF" />
+
+  <!-- Accent dot (Digital mark) -->
+  <circle cx="43" cy="20" r="3" fill="url(#accentGrad)" />
+</svg>
